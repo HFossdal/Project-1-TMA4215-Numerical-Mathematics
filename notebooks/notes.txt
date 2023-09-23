@@ -1,0 +1,6 @@
+Oppgave 1c): dont know how I can explain that the two spaces are equal as well as the dimension of Tn. I know that if theyre the same, dimTn=dimSn
+Something to do with linear combination?
+
+cosx = (e^(ix) + e^(-ix))/2 and sinx = (e^(ix)-e^(-ix))/2
+
+e^(ix) = cosx + isin(x)

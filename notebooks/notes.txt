@@ -4,3 +4,6 @@ Something to do with linear combination?
 cosx = (e^(ix) + e^(-ix))/2 and sinx = (e^(ix)-e^(-ix))/2
 
 e^(ix) = cosx + isin(x)
+
+
+1d) Why can I just ignore the sum when i am finding a_k and b_k? Look up on why a_0 becomes 0 in second proof.

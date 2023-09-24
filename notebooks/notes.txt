@@ -9,4 +9,4 @@ e^(ix) = cosx + isin(x)
 1d) Why can I just ignore the sum when i am finding a_k and b_k? Look up on why a_0 becomes 0 in second proof.
 
 
-1e) difference between f(x) := and f(x) =
+1e) difference between f(x) := and f(x) =? What does that mean for the approximation in the equation above?

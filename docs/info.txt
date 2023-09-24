@@ -1,0 +1,6 @@
+Composite integration rules. 
+The word composite is often used when a numerical integration method is applied with more than one sub-interval. 
+Strictly speaking then, writing, e.g., "the trapezoidal method", should imply the use of only a single trapezoid, 
+while "the composite trapezoidal method" is the most correct name when several trapezoids are used. However, 
+this naming convention is not always followed, 
+so saying just "the trapezoidal method" may point to a single trapezoid as well as the composite rule with many trapezoids.

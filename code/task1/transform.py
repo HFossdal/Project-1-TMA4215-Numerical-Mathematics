@@ -2,7 +2,7 @@ import numpy as np
 import scipy.fft
 import matplotlib.pyplot as plt
 
-def transform(f, N, start=0.0):
+def transform(f, N, start=0.0, end=1.0):
     """
     Transform a function f by evaluating it at N equidistant points within
     the interval [start, start+1).
@@ -22,12 +22,12 @@ def transform(f, N, start=0.0):
     """
 
     # Create an array of N equidistant points
-    x = np.linspace(start, start + 1.0, N, endpoint=False)
+    x = np.linspace(start, end, N, endpoint=False)
 
     # Evaluate the function at the points
     f_values = f(x)
 
-    return f_values
+    return x, f_values
 
 
 def plot_f_value_f_hat(f, N):
@@ -42,17 +42,18 @@ def plot_f_value_f_hat(f, N):
     """
 
     # Compute the DFT using SciPy's FFT function
-    f_values = transform(f, N)
+    x_values = transform(f, N)[0]
+    f_values = transform(f, N)[1]
     f_hat = scipy.fft.fft(f_values)
 
     plt.figure(figsize=(10, 4))
 
     # Plot the real and imaginary parts with different colors
-    plt.plot(np.real(f_hat), color="red", label="real")
-    plt.plot(np.imag(f_hat), color="blue", label="imaginary")
+    plt.plot(x_values, np.real(f_hat), color="red", label="real")
+    plt.plot(x_values, np.imag(f_hat), color="blue", label="imaginary")
 
     # plot the function
-    plt.plot(f_values, color="green", label="function")
+    plt.plot(x_values,f_values, color="green", label="function")
 
     plt.title(f"Real and imaginary parts of the DFT of {f.__name__} with N={N}")
     plt.grid()

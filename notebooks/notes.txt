@@ -12,3 +12,5 @@ e^(ix) = cosx + isin(x)
 1e) difference between f(x) := and f(x) =? What does that mean for the approximation in the equation above?
 
 1h) For which cases does **f** approximate $f$ well?
+    look at f2 for N = 257 
+    Simply code further by computing DFT in transform function

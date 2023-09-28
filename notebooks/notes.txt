@@ -14,3 +14,8 @@ e^(ix) = cosx + isin(x)
 1h) For which cases does **f** approximate $f$ well?
     look at f2 for N = 257 
     Simply code further by computing DFT in transform function
+
+
+1i) 
+* a_k(f2) and b_k(f_2) can be found from the fourier coefficients. We have a_k = 1 for k = 64, b_k = for k = 16.
+* 

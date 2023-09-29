@@ -4,3 +4,8 @@ Strictly speaking then, writing, e.g., "the trapezoidal method", should imply th
 while "the composite trapezoidal method" is the most correct name when several trapezoids are used. However, 
 this naming convention is not always followed, 
 so saying just "the trapezoidal method" may point to a single trapezoid as well as the composite rule with many trapezoids.
+
+
+The importance of the Dirichlet kernel comes from its relation to
+Fourier series. The convolution of D_n(x) with any function
+is the n'th-degree Fourier series approximatiom

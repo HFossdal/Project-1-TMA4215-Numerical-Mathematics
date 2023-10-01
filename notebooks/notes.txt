@@ -6,16 +6,22 @@ cosx = (e^(ix) + e^(-ix))/2 and sinx = (e^(ix)-e^(-ix))/2
 e^(ix) = cosx + isin(x)
 
 
-1d) Why can I just ignore the sum when i am finding a_k and b_k? Look up on why a_0 becomes 0 in second proof.
 
 
-1e) difference between f(x) := and f(x) =? What does that mean for the approximation in the equation above?
 
-1h) For which cases does **f** approximate $f$ well?
-    look at f2 for N = 257 
-    Simply code further by computing DFT in transform function
+1e) What does that mean for the approximation in the equation above?
+
+
+1g) Why does the end expression imply circulant matrix?
+    I also need to derive a formula for F_N^(-1)
+
 
 
 1i) 
-* a_k(f2) and b_k(f_2) can be found from the fourier coefficients. We have a_k = 1 for k = 64, b_k = for k = 16.
-* 
+* Compare c_k's with classmates
+* Using Euler’s identity – Can you use the coefficients to “remove” the second
+summand of f2 by just modifying fˆ ∈ C
+257
+* Can you do the same for the case N = 17, i. e. fˆ ∈ C
+17? Try to find a reason for
+your answer
